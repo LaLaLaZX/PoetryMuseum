@@ -1,0 +1,1488 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navigation-one {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.slider-img {
+  transition: all ease 1s;
+}
+
+.navigation-two {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.navigation-three {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  margin-right: 50px;
+}
+
+.logo {
+  margin-right: 500px;
+}
+
+.slider-img {
+  width: 1493px;
+  height: 755px;
+}
+
+.main-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  margin-bottom: 35px;
+}
+
+.main-box {
+  background-color: #DAD3D0;
+  margin-top: -5px;
+  padding-top: 40px;
+}
+
+.news {
+  width: 350px;
+  height: 380px;
+}
+
+.news-one-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.news-two-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.new-text-first {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.new-text-second {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  width: 100%;
+}
+
+.new-img {
+  margin-bottom: 25px;
+}
+
+.about-text {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  max-width: 620px;
+}
+
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  width: 620px;
+}
+
+.bottom-img-one {
+  margin-top: 90px;
+  height: 650px;
+}
+
+.nav-foot-text {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Book Antiqua";
+}
+
+.foot-text {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Book Antiqua";
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.first-footer {
+  display: flex;
+  align-items: center;
+}
+
+.nav-foot {
+  margin-right: 15px;
+}
+
+.nav-foot-text {
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #DAD3D0;
+}
+
+.second-footer {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #DAD3D0;
+}
+
+.history-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.history-text {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.history-slider {
+  margin-bottom: 40px;
+}
+
+.history-text-box {
+  margin-bottom: 40px;
+}
+
+.history-box-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history-info {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  width: 620px;
+}
+
+.history-img {
+  width: 620px;
+}
+
+.history-box-info {
+  margin-bottom: 30px;
+}
+
+.bottom-img-two {
+  margin-top: 90px;
+  height: 650px;
+}
+
+.collections-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.collection-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.collection-text {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  max-width: 280px;
+  margin-top: 10px;
+}
+
+.collection-link {
+  text-decoration: none;
+}
+
+.bottom-img-three {
+  margin-top: 90px;
+  height: 650px;
+}
+
+.exhibits-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.exhibits-text {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.bottom-img-four {
+  margin-top: 90px;
+  height: 650px;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bottom-img {
+  margin-top: 90px;
+  height: 650px;
+  width: 100%;
+}
+
+.exposition-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.exposition-but {
+  width: 351px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.exposition-but:hover {
+  width: 351px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #100D26;
+  border-radius: 3px;
+  background-color: #100D26;
+  color: #DAD3D0;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 176px;
+  height: 60px;
+  border: none;
+  border: 1px solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.date:focus {
+  background-color: #100D26;
+  color: #DAD3D0;
+}
+
+.pay-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.information {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #8C655D;
+  margin-top: 30px;
+}
+
+.categories {
+  width: 1000px;
+}
+
+.inf {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.categories-text {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #000000;
+}
+
+.inf-text {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #000000;
+}
+
+.head-table {
+  display: flex;
+  margin-top: 30px;
+}
+
+.table {
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 1400px;
+  height: 500px;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.table-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.right-text {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-text {
+  width: 1000px;
+}
+
+.table-line {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.cost {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.line-text {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #000000;
+}
+
+hr {
+  margin-bottom: 50px;
+  border: 0.5px solid #000000;
+}
+
+.text-pay {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #000000;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+
+.pay-but {
+  width: 351px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+  float: right;
+}
+
+.pay-but:hover {
+  width: 351px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #100D26;
+  border-radius: 3px;
+  background-color: #100D26;
+  color: #DAD3D0;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.contacts-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  margin-bottom: 35px;
+  padding-top: 120px;
+}
+
+.contacts-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contacts-text {
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  color: #000000;
+  line-height: 2;
+}
+
+.contacts-text-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text-box-one {
+  margin-right: 100px;
+}
+
+input {
+  width: 470px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Book Antiqua";
+  font-size: 20px;
+}
+
+.contacts-but {
+  width: 492px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.contacts-but:hover {
+  width: 492px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #100D26;
+  border-radius: 3px;
+  background-color: #100D26;
+  color: #DAD3D0;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.authoriz {
+  width: 390px;
+  height: 470px;
+  background-color: #DAD3D0;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  padding-top: 30px;
+  display: none;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 10%;
+  z-index: 12;
+}
+
+.up {
+  display: block;
+}
+
+.auth-container {
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.authoriz-title {
+  font-family: "Book Antiqua";
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.bt-authoriz {
+  width: 323px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.number-authoriz {
+  font-size: 16px;
+  text-decoration-color: #8C655D;
+  width: 300px;
+  height: 40px;
+}
+
+.bt-authoriz {
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.bt-authoriz:hover {
+  border: none;
+  border: 1px solid;
+  border-color: #100D26;
+  border-radius: 3px;
+  background-color: #100D26;
+  color: #DAD3D0;
+  font-size: 16px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.close-bt {
+  margin-left: 350px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.close-bt_2 {
+  margin-left: 350px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.to-register {
+  text-decoration: none;
+}
+
+.text-to-register {
+  font-size: 14px;
+  color: #8C655D;
+  cursor: pointer;
+}
+
+.to-login {
+  text-decoration: none;
+}
+
+.text-to-login {
+  font-size: 14px;
+  color: #8C655D;
+}
+
+.user {
+  cursor: pointer;
+}
+
+.user2 {
+  cursor: pointer;
+}
+
+.user3 {
+  cursor: pointer;
+}
+
+.register {
+  width: 390px;
+  height: 470px;
+  background-color: #DAD3D0;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  padding-top: 30px;
+  display: none;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 10%;
+  z-index: 12;
+}
+
+.upreg {
+  display: block;
+}
+
+.profile-title {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+
+.data-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.img-data {
+  margin-right: 100px;
+}
+
+.words-data {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+}
+
+.words-data-two {
+  color: #8C655D;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+}
+
+.words-data-box {
+  line-height: 50px;
+}
+
+.data-link {
+  text-decoration: none;
+}
+
+.visited-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-bottom: -50px;
+}
+
+.recommended-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  margin-bottom: -50px;
+}
+
+.redactor-img {
+  width: 600px;
+  height: 600px;
+}
+
+.redactor-box {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count-input {
+  border: none;
+  width: auto;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 20px;
+}
+
+.count-input {
+  width: 20px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.counter__button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 100px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 70px;
+  }
+  .slider-img {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+  .user2 {
+    display: none;
+  }
+  .user3 {
+    display: none;
+  }
+  .nav-text {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .navigation-one {
+    margin-left: -70px;
+  }
+  .main-title {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+  .new-img {
+    width: 100px;
+    height: 50px;
+    margin-right: -30px;
+  }
+  .main-box {
+    background-color: #DAD3D0;
+    margin-top: -5px;
+    padding-top: 40px;
+  }
+  .news {
+    width: 200px;
+    height: 230px;
+  }
+  .news-one-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    max-width: 780px;
+  }
+  .news-two-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 780px;
+  }
+  .new-text-first {
+    color: #000000;
+    font-size: 10px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    margin-bottom: 15px;
+    max-width: 100px;
+  }
+  .new-text-second {
+    color: #000000;
+    font-size: 10px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+  }
+  .new-img {
+    margin-bottom: 15px;
+  }
+  .about-text {
+    color: #000000;
+    font-size: 10px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    max-width: 320px;
+  }
+  .about-img {
+    width: 300px;
+    height: 150px;
+  }
+  .about-img:nth-child(2) {
+    display: none;
+  }
+  .about-box {
+    margin-bottom: 10px;
+    display: inline;
+  }
+  .bottom-img {
+    display: none;
+  }
+  .nav-foot-text {
+    text-decoration: none;
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+  }
+  .social {
+    width: 20px;
+    height: 20px;
+  }
+  .foot-text {
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .first-footer {
+    display: flex;
+    align-items: center;
+  }
+  .nav-foot {
+    margin-right: 15px;
+  }
+  .nav-foot-text {
+    margin-right: 15px;
+  }
+  footer {
+    background-color: #DAD3D0;
+  }
+  .logo-foot {
+    width: 100px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .second-footer {
+    width: 100px;
+    display: inline;
+  }
+  .history-title {
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .history-text {
+    color: #000000;
+    font-size: 10px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  .image-slider {
+    width: 100px;
+    height: 150px;
+  }
+  .history-slider {
+    margin-bottom: 40px;
+  }
+  .history-img {
+    width: 300px;
+  }
+  .history-info {
+    font-size: 10px;
+  }
+  .collections-title {
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .collection-img {
+    width: 150px;
+    height: 200px;
+  }
+  .collection-text {
+    font-size: 10px;
+  }
+  .exhibits-title {
+    font-family: "Book Antiqua";
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .exhibits-text {
+    font-size: 10px;
+  }
+  .card-img {
+    width: 150px;
+    height: 200px;
+  }
+  .exposition-title {
+    font-size: 20px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .exposition-but {
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .exposition-but:hover {
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .button-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .date {
+    width: 76px;
+    height: 40px;
+  }
+  .pay-title {
+    font-size: 20px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .information {
+    font-size: 10px;
+    margin-top: 25px;
+  }
+  .categories {
+    width: 800px;
+  }
+  .categories-text {
+    font-size: 10px;
+  }
+  .inf-text {
+    font-size: 10px;
+  }
+  .head-table {
+    display: flex;
+    margin-top: 30px;
+  }
+  .table {
+    width: 780px;
+    height: 500px;
+  }
+  .table-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .right-text {
+    width: 400px;
+  }
+  .left-text {
+    width: 800px;
+  }
+  .line-text {
+    font-size: 10px;
+  }
+  hr {
+    width: 780px;
+  }
+  .text-pay {
+    font-size: 10px;
+  }
+  .pay-but {
+    width: 151px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .pay-but:hover {
+    width: 151px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .contacts-title {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .contacts-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .contacts-text {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .contacts-text-box {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .text-box-one {
+    margin-right: 100px;
+  }
+  input {
+    width: 250px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .contacts-but {
+    width: 270px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .contacts-but:hover {
+    width: 270px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 345px;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 50px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 70px;
+  }
+  .slider-img {
+    display: none;
+  }
+  .user {
+    display: none;
+  }
+  .user2 {
+    display: none;
+  }
+  .user3 {
+    display: none;
+  }
+  .nav-text {
+    font-size: 8px;
+    margin-right: 10px;
+  }
+  .navigation-one {
+    margin-left: -70px;
+  }
+  .main-title {
+    font-size: 10px;
+    font-family: "Book Antiqua";
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+  .new-img {
+    width: 100px;
+    height: 50px;
+    margin-right: -30px;
+  }
+  .main-box {
+    background-color: #DAD3D0;
+    margin-top: -5px;
+    padding-top: 40px;
+  }
+  .news {
+    width: 200px;
+    height: 230px;
+  }
+  .news-one-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    max-width: 780px;
+  }
+  .news-two-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    max-width: 780px;
+  }
+  .new-text-first {
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    margin-bottom: 15px;
+    max-width: 100px;
+  }
+  .new-text-second {
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+  }
+  .new-img {
+    margin-bottom: 0px;
+  }
+  .about-text {
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    max-width: 320px;
+  }
+  .about-img {
+    width: 300px;
+    height: 150px;
+  }
+  .about-img:nth-child(2) {
+    display: none;
+  }
+  .about-box {
+    margin-bottom: 10px;
+    display: inline;
+  }
+  .bottom-img {
+    display: none;
+  }
+  .nav-foot-text {
+    text-decoration: none;
+    color: #000000;
+    font-size: 8px;
+    font-family: "Book Antiqua";
+  }
+  .social {
+    width: 10px;
+    height: 10px;
+  }
+  .foot-text {
+    color: #000000;
+    font-size: 5px;
+    font-family: "Book Antiqua";
+  }
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .first-footer {
+    display: flex;
+    align-items: center;
+  }
+  .nav-foot {
+    margin-right: 15px;
+  }
+  .nav-foot-text {
+    margin-right: 15px;
+    font-size: 6px;
+  }
+  footer {
+    background-color: #DAD3D0;
+  }
+  .logo-foot {
+    width: 50px;
+    height: 10px;
+    margin-right: 5px;
+  }
+  .second-footer {
+    width: 100px;
+    display: flex;
+  }
+  .history-title {
+    font-size: 10px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .history-text {
+    font-size: 8px;
+    font-family: "Book Antiqua";
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  .image-slider {
+    width: 70px;
+    height: 100px;
+  }
+  .history-slider {
+    margin-bottom: 20px;
+  }
+  .history-img {
+    width: 150px;
+  }
+  .history-info {
+    font-size: 8px;
+  }
+  .collections-title {
+    font-size: 10px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .collection-img {
+    width: 60px;
+    height: 80px;
+  }
+  .collection-text {
+    font-size: 8px;
+  }
+  .exhibits-title {
+    font-family: "Book Antiqua";
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .exhibits-text {
+    font-size: 8px;
+  }
+  .card-img {
+    width: 60px;
+    height: 80px;
+  }
+  .exposition-title {
+    font-size: 10px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+  }
+  .exposition-but {
+    width: 80px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .exposition-but:hover {
+    width: 80px;
+    height: 15px;
+    font-size: 8px;
+  }
+  .button-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .date {
+    width: 60px;
+    height: 20px;
+  }
+  .pay-title {
+    font-size: 10px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .information {
+    font-size: 8px;
+    margin-top: 25px;
+  }
+  .categories {
+    width: 300px;
+  }
+  .categories-text {
+    font-size: 8px;
+  }
+  .inf-text {
+    font-size: 8px;
+  }
+  .head-table {
+    display: flex;
+    margin-top: 20px;
+  }
+  .table {
+    width: 350px;
+    height: 500px;
+  }
+  .table-container {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .right-text {
+    width: 200px;
+  }
+  .left-text {
+    width: 300px;
+  }
+  .line-text {
+    font-size: 10px;
+  }
+  hr {
+    width: 360px;
+  }
+  .text-pay {
+    font-size: 8px;
+  }
+  .pay-but {
+    width: 100px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .pay-but:hover {
+    width: 100px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .contacts-title {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .contacts-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .contacts-text {
+    font-size: 8px;
+    line-height: 3;
+  }
+  .carta {
+    display: none;
+  }
+  .contacts-text-box {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .text-box-one {
+    margin-right: 0px;
+  }
+  input {
+    width: 100px;
+    height: 20px;
+    font-size: 8px;
+  }
+  .contacts-but {
+    width: 125px;
+    height: 20px;
+    font-size: 8px;
+  }
+  .contacts-but:hover {
+    width: 125px;
+    height: 20px;
+    font-size: 8px;
+  }
+}
+.msg {
+  text-align: center;
+  font-family: "Book Antiqua";
+}
+
+th {
+  padding: 10px;
+  background-color: #8C655D;
+  color: #DAD3D0;
+}
+
+td {
+  padding: 10px;
+  background-color: #DAD3D0;
+}
+
+.table-name {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.add-but {
+  width: 493px;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.add-but:hover {
+  background-color: #100D26;
+  color: #DAD3D0;
+}
+
+.type_of_authors {
+  width: 492px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  padding-left: 15px;
+  color: #757575;
+  background-color: transparent;
+  border: none;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.exit {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Book Antiqua";
+  cursor: pointer;
+}
+
+.exit:hover {
+  background-color: #100D26;
+  color: #DAD3D0;
+}/*# sourceMappingURL=style.css.map */

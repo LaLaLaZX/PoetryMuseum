@@ -1,0 +1,1692 @@
+//определение переменных
+$black: #000000;
+$title: 32px;
+$font: 'Book Antiqua';
+$text: 20px;
+$height-bot: 650px;
+$marg-bot: 90px;
+$media-textp: 10px;
+$media-titlep: 20px;
+$media-textt: 8px;
+$media-titlet: 10px;
+
+*{
+    padding: 0; //обнуление отступов
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px; //максимальная ширина и нулевой отступ
+    margin: 0 auto;
+}
+
+.navigation-one {
+    display: flex; //элементы - гибкие
+    align-items: center; //расположение элементов по центру относительно друг друга
+    position: absolute; //абсолютное позиционирование элемента
+    z-index: 1; //уровень элемента
+    margin-top: 15px; //отступ сверху
+}
+
+.slider-img {
+    transition: all ease 1s; //задержка слайдера
+}
+
+.navigation-two {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1; 
+    margin-top: 15px;
+}
+
+
+.navigation-three {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+
+.nav-text {
+    text-decoration: none; //убирается встроенное оформление ссылки
+    color: $black; //цвет
+    font-size: $text; //размер текста
+    font-family: $font; //шрифт
+    margin-right: 50px; //отступ справа
+}
+
+.logo {
+    margin-right: 500px;
+}
+
+.slider-img {
+    width: 1493px; //ширина
+    height: 755px; //высота
+}
+
+.main-title{
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100; //толщина шрифта
+    margin-bottom: 35px; //отступ снизу
+}
+
+.main-box {
+    background-color: #DAD3D0; //цвет фона
+    margin-top: -5px;
+    padding-top: 40px; //внутренний отступ сверху
+}
+
+.news {
+    width: 350px;
+    height: 380px;
+}
+
+.news-one-box {
+    display: flex;
+    justify-content: space-between; //расположение элементов по всему контейнеру с равным расстоянием друг от друга
+    margin-bottom: 70px;
+}
+
+.news-two-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.new-text-first {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify; //выравнивание текста по ширине
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.new-text-second {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify;
+    width: 100%;
+}
+
+.new-img {
+    margin-bottom: 25px;
+}
+
+.about-text {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify;
+    max-width: 620px; //максимальная ширина
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.about-img {
+    width: 620px;
+}
+
+.bottom-img-one {
+    margin-top: $marg-bot;
+    height: $height-bot;
+}
+
+.nav-foot-text {
+    text-decoration: none;
+    color: $black;
+    font-size: 16px;
+    font-family: $font;
+}
+
+.foot-text {
+    color: $black;
+    font-size: 16px;
+    font-family: $font;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.first-footer {
+    display: flex;
+    align-items: center;
+}
+
+.nav-foot {
+    margin-right: 15px;
+}
+
+.nav-foot-text {
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #DAD3D0;
+}
+
+.second-footer {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color:  #DAD3D0;
+}
+
+.history-title{
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.history-text {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.history-slider {
+    margin-bottom: 40px;
+}
+
+.history-text-box {
+    margin-bottom: 40px;
+}
+
+.history-box-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-info {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify;
+    width: 620px;
+}
+
+.history-img {
+    width: 620px;
+}
+
+.history-box-info {
+    margin-bottom: 30px;
+}
+
+.bottom-img-two {
+    margin-top: $marg-bot;
+    height: $height-bot;
+}
+
+.collections-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.collection-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.collection-text {
+    font-size: $text;
+    color: $black;
+    font-family: $font;
+    text-align: justify;
+    max-width: 280px;
+    margin-top: 10px;
+}
+
+.collection-link {
+    text-decoration: none;
+}
+
+.bottom-img-three {
+    margin-top: $marg-bot;
+    height: $height-bot;
+}
+
+.exhibits-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.exhibits-text {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    text-align: justify;
+    margin-bottom: 15px;
+} 
+
+.bottom-img-four {
+    margin-top: $marg-bot;
+    height: $height-bot;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bottom-img {
+    margin-top: $marg-bot;
+    height: $height-bot;
+    width: 100%;
+    
+}
+
+.exposition-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.exposition-but{
+    width: 351px;
+    height: 50px;
+    border: none;
+    border: 1px solid; //обводка
+    border-color: #000000; //цвет обводки
+    border-radius: 3px; //скругление обводки
+    background-color: transparent; //прозрачный цвет фона
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer; //курсор в виде руки при наведении на элемент
+}
+
+.buttons-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.exposition-but:hover{
+    width: 351px;
+    height: 50px;
+    border: none;
+    border: 1px solid;
+    border-color: #100D26;
+    border-radius: 3px;
+    background-color: #100D26;
+    color: #DAD3D0;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    width: 176px;
+    height: 60px;
+    border: none;
+    border: 1px solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: $black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.date:focus {
+    background-color: #100D26;
+    color: #DAD3D0;;
+}
+
+.pay-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.information {
+    font-size: $text;
+    font-family: $font;
+    color: #8C655D;
+    margin-top: 30px;
+}
+
+.categories {
+    width: 1000px;
+}
+
+.inf {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.categories-text {
+    font-size: $text;
+    font-family: $font;
+    color: $black;
+}
+
+.inf-text {
+    font-size: $text;
+    font-family: $font;
+    color: $black;
+}
+
+.head-table {
+    display: flex;
+    margin-top: 30px;
+}
+
+.table {
+    border: 1px solid;
+    border-color: $black;
+    border-radius: 3px;
+    background-color: transparent;
+    width: 1400px;
+    height: 500px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5); //добавление тени
+}
+
+.table-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.right-text {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text {
+    width: 1000px;
+}
+
+.table-line {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.line-text {
+    font-size: $text;
+    font-family: $font;
+    color: $black;
+}
+
+hr {
+    margin-bottom: 50px;
+    border:0.5px solid $black;
+}
+
+.text-pay {
+    font-size: $text;
+    font-family: $font;
+    color: $black;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.pay-but {
+    width: 351px;
+    height: 50px;
+    border: none;
+    border: 1px solid; 
+    border-color: #000000;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+    float: right; //выравнивание справа
+}
+
+.pay-but:hover{
+    width: 351px;
+    height: 50px;
+    border: none;
+    border: 1px solid;
+    border-color: #100D26;
+    border-radius: 3px;
+    background-color: #100D26;
+    color: #DAD3D0;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.contacts-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    margin-bottom: 35px;
+    padding-top: 120px;
+}
+
+.contacts-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contacts-text{
+    font-size: $text;
+    font-family: $font;
+    color: $black;
+    line-height: 2; //отступ между символами в столбце
+}
+
+.contacts-text-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.text-box-one {
+    margin-right: 100px;
+}
+
+input {
+    width: 470px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-family: $font;
+    font-size: $text;
+}
+
+.contacts-but {
+    width: 492px;
+    height: 50px;
+    border: none;
+    border: 1px solid; 
+    border-color: #000000;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.contacts-but:hover {
+    width: 492px;
+    height: 50px;
+    border: none;
+    border: 1px solid;
+    border-color: #100D26;
+    border-radius: 3px;
+    background-color: #100D26;
+    color: #DAD3D0;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.authoriz {
+    width: 390px;
+    height: 470px;
+    background-color: #DAD3D0;
+    border: 1px solid;
+    border-color: $black;
+    border-radius: 3px;
+    padding-top: 30px;
+    display: none;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 10%;
+    z-index: 12;
+}
+.up{
+    display:block; //элемент блочный
+}
+
+.auth-container{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column; //выстраивание элементов в колонку
+    justify-content: center;
+    align-items: center;
+
+}
+
+.authoriz-title {
+    font-family: $font;
+    font-size: $text;
+    text-align: center;
+    color: $black;
+    margin-bottom: 30px;
+}
+
+.bt-authoriz {
+    width: 323px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.number-authoriz {
+    font-size: 16px;
+    text-decoration-color: #8C655D; //цвет текста
+    width: 300px;
+    height: 40px;
+}
+
+.bt-authoriz {
+    border: none;
+    border: 1px solid; 
+    border-color: #000000;
+    border-radius: 3px;
+    background-color: transparent;
+    color: $black;
+    font-size: 16px;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.bt-authoriz:hover {
+    border: none;
+    border: 1px solid;
+    border-color: #100D26;
+    border-radius: 3px;
+    background-color: #100D26;
+    color: #DAD3D0;
+    font-size: 16px;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.close-bt {
+    margin-left: 350px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.close-bt_2{
+    margin-left: 350px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.to-register {
+    text-decoration: none;
+}
+
+.text-to-register {
+    font-size: 14px;
+    color: #8C655D;
+    cursor: pointer;
+}
+
+.to-login {
+    text-decoration: none;
+}
+
+.text-to-login {
+    font-size: 14px;
+    color: #8C655D;
+}
+
+.user {
+    cursor: pointer;
+}
+
+.user2 {
+    cursor: pointer;
+}
+
+.user3 {
+    cursor: pointer;
+}
+
+.register {
+    width: 390px;
+    height: 470px;
+    background-color: #DAD3D0;
+    border: 1px solid;
+    border-color: $black;
+    border-radius: 3px;
+    padding-top: 30px;
+    display: none;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 10%;
+    z-index: 12;
+}
+
+.upreg{
+    display: block;
+}
+
+.profile-title {
+    color: $black;
+    font-size: $title;
+    font-family: $font;
+    font-weight: 100;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.data-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.img-data {
+    margin-right: 100px;
+}
+
+.words-data {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+}
+
+.words-data-two {
+    color: #8C655D;
+    font-size: $text;
+    font-family: $font;
+}
+
+.words-data-box {
+    line-height: 50px;
+}
+
+.data-link {
+    text-decoration: none;
+}
+
+.visited-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-bottom: -50px;
+}
+
+.recommended-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    margin-bottom: -50px;
+}
+
+.redactor-img {
+    width: 600px;
+    height: 600px;
+}
+
+.redactor-box {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count-input {
+    border: none;
+    width: auto;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 20px;
+}
+
+.count-input {
+    width: 20px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.counter__button {
+    cursor: pointer; 
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) 
+{
+    //главная
+
+    .container{
+        max-width: 780px; 
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 100px;
+        height: 20px;
+        margin-right: 10px;
+        margin-left: 70px;
+    }
+
+    .slider-img {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .user2 {
+        display: none;
+    }
+
+    .user3 {
+        display: none;
+    }
+
+    .nav-text {
+        font-size: 10px; 
+        margin-right: 10px;
+    }
+
+    .navigation-one {
+        margin-left: -70px;
+    }
+    
+    .main-title{
+        color: $black;
+        font-size: $media-titlep;
+        font-family: $font;
+        font-weight: 100;
+        margin-bottom: 15px; 
+    }
+
+    .new-img {
+        width: 100px;
+        height: 50px;
+        margin-right: -30px;
+    }
+    
+    .main-box {
+        background-color: #DAD3D0; 
+        margin-top: -5px;
+        padding-top: 40px; 
+    }
+    
+    .news {
+        width: 200px;
+        height: 230px;
+    }
+    
+    .news-one-box {
+        display: flex;
+        justify-content: space-between; 
+        margin-bottom: 10px;
+        max-width: 780px;
+    }
+    
+    .news-two-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        max-width: 780px;
+    }
+    
+    .new-text-first {
+        color: $black;
+        font-size: $media-textp;
+        font-family: $font;
+        text-align: justify; 
+        margin-bottom: 15px;
+        max-width: 100px;
+    }
+    
+    .new-text-second {
+        color: $black;
+        font-size: $media-textp;
+        font-family: $font;
+        text-align: justify;
+    }
+    
+    .new-img {
+        margin-bottom: 15px;
+    }
+    
+    .about-text {
+        color: $black;
+        font-size: $media-textp;
+        font-family: $font;
+        text-align: justify;
+        max-width: 320px; 
+    }
+
+    .about-img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .about-img:nth-child(2) {
+        display: none;
+    }
+    
+    .about-box {
+        margin-bottom: 10px;
+        display: inline;
+    }
+    
+    
+    .bottom-img {
+        display: none;
+    }
+    
+    .nav-foot-text {
+        text-decoration: none;
+        color: $black;
+        font-size: 8px;
+        font-family: $font;
+    }
+
+    .social {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .foot-text {
+        color: $black;
+        font-size: 8px;
+        font-family: $font;
+    }
+    
+    .footer-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .first-footer {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-foot {
+        margin-right: 15px;
+    }
+    
+    .nav-foot-text {
+        margin-right: 15px;
+    }
+    
+    footer {
+        background-color: #DAD3D0;
+    }
+    
+    .logo-foot {
+        width: 100px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .second-footer {
+        width: 100px;
+        display: inline;
+    }
+    
+    
+
+    //история
+
+    .history-title{
+        font-size: $media-titlep;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .history-text {
+        color: $black;
+        font-size: $media-textp;
+        font-family: $font;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    
+    .image-slider{
+        width: 100px;
+        height: 150px;
+    }
+
+    .history-slider {
+        margin-bottom: 40px;
+    }
+    
+    .history-img{
+        width: 300px;
+    }
+
+    .history-info {
+        font-size: $media-textp;
+    }
+    
+    //коллекции
+
+    
+    .collections-title {
+        font-size: $media-titlep;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .collection-img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .collection-text {
+        font-size: $media-textp;
+    }
+
+    //экспонаты
+
+    .exhibits-title {
+        font-family: $font;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .exhibits-text {
+        font-size: $media-textp;
+    } 
+    
+    //карточка
+
+    .card-img {
+        width: 150px;
+        height: 200px;
+    }
+
+    //выставки
+
+    .exposition-title {
+        font-size: $media-titlep;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .exposition-but{
+        width: 100px;
+        height: 20px;
+        font-size: $media-textp;
+    }
+
+    .exposition-but:hover{
+        width: 100px;
+        height: 20px;
+        font-size: $media-textp;
+    }
+
+    //покупка
+
+    .button-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .date {
+        width: 76px;
+        height: 40px;
+    }
+    
+    .pay-title {
+        font-size: $media-titlep;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .information {
+        font-size: $media-textp;
+        margin-top: 25px;
+    }
+    
+    .categories {
+        width: 800px;
+    }
+
+    .categories-text {
+        font-size: $media-textp;
+    }
+    
+    .inf-text {
+        font-size: $media-textp;
+    }
+    
+    .head-table {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .table {
+        width: 780px;
+        height: 500px;
+    }
+    
+    .table-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+    .right-text {
+        width: 400px;
+    }
+    
+    .left-text {
+        width: 800px;
+    }
+    
+    .line-text {
+        font-size: $media-textp;
+    }
+    
+    hr {
+        width: 780px;
+    }
+    
+    .text-pay {
+        font-size: $media-textp;
+    }
+    
+    .pay-but {
+        width: 151px;
+        height: 30px;
+        font-size: $media-textp;
+    }
+    
+    .pay-but:hover{
+        width: 151px;
+        height: 30px;
+        font-size: $media-textp;
+    }
+    
+    //контакты 
+
+    .contacts-title {
+        font-size: $media-titlep;
+        margin-bottom: 0px;
+    }
+    
+    .contacts-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .contacts-text{
+        font-size: $media-textp;
+        line-height: 2;
+    }
+    
+    .contacts-text-box {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .text-box-one {
+        margin-right: 100px;
+    }
+    
+    input {
+        width: 250px;
+        height: 40px;
+        font-size: $media-textp;
+    }
+    
+    .contacts-but {
+        width: 270px;
+        height: 40px;
+        font-size: $media-textp;
+    }
+    
+    .contacts-but:hover {
+        width: 270px;
+        height: 40px;
+        font-size: $media-textp;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) 
+{
+    //главная
+
+    .container{
+        max-width: 345px; 
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 50px;
+        height: 10px;
+        margin-right: 10px;
+        margin-left: 70px;
+    }
+
+    .slider-img {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .user2 {
+        display: none;
+    }
+
+    .user3 {
+        display: none;
+    }
+
+    .nav-text {
+        font-size: 8px; 
+        margin-right: 10px;
+    }
+
+    .navigation-one {
+        margin-left: -70px;
+    }
+    
+    .main-title{
+        font-size: $media-titlet;
+        font-family: $font;
+        font-weight: 100;
+        margin-bottom: 15px; 
+    }
+
+    .new-img {
+        width: 100px;
+        height: 50px;
+        margin-right: -30px;
+    }
+    
+    .main-box {
+        background-color: #DAD3D0; 
+        margin-top: -5px;
+        padding-top: 40px; 
+    }
+    
+    .news {
+        width: 200px;
+        height: 230px;
+    }
+    
+    .news-one-box {
+        display: flex;
+        justify-content: space-between; 
+        margin-bottom: 0px;
+        max-width: 780px;
+    }
+    
+    .news-two-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        max-width: 780px;
+    }
+    
+    .new-text-first {
+        color: $black;
+        font-size: $media-textt;
+        font-family: $font;
+        text-align: justify; 
+        margin-bottom: 15px;
+        max-width: 100px;
+    }
+    
+    .new-text-second {
+        color: $black;
+        font-size: $media-textt;
+        font-family: $font;
+        text-align: justify;
+    }
+    
+    .new-img {
+        margin-bottom: 0px;
+    }
+    
+    .about-text {
+        color: $black;
+        font-size: $media-textt;
+        font-family: $font;
+        text-align: justify;
+        max-width: 320px; 
+    }
+
+    .about-img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .about-img:nth-child(2) {
+        display: none;
+    }
+    
+    .about-box {
+        margin-bottom: 10px;
+        display: inline;
+    }
+    
+    
+    .bottom-img {
+        display: none;
+    }
+    
+    .nav-foot-text {
+        text-decoration: none;
+        color: $black;
+        font-size: 8px;
+        font-family: $font;
+    }
+
+    .social {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .foot-text {
+        color: $black;
+        font-size: 5px;
+        font-family: $font;
+    }
+    
+    .footer-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .first-footer {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-foot {
+        margin-right: 15px;
+    }
+    
+    .nav-foot-text {
+        margin-right: 15px;
+        font-size: 6px;
+    }
+    
+    footer {
+        background-color: #DAD3D0;
+    }
+    
+    .logo-foot {
+        width: 50px;
+        height: 10px;
+        margin-right: 5px;
+    }
+
+    .second-footer {
+        width: 100px;
+        display: flex;
+    }
+    
+    
+
+    //история
+
+    .history-title{
+        font-size: $media-titlet;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .history-text {
+        font-size: $media-textt;
+        font-family: $font;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    
+    .image-slider{
+        width: 70px;
+        height: 100px;
+    }
+
+    .history-slider {
+        margin-bottom: 20px;
+    }
+    
+    .history-img{
+        width: 150px;
+    }
+
+    .history-info {
+        font-size: $media-textt;
+    }
+    
+    //коллекции
+
+    
+    .collections-title {
+        font-size: $media-titlet;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .collection-img {
+        width: 60px;
+        height: 80px;
+    }
+
+    .collection-text {
+        font-size: $media-textt;
+    }
+
+    //экспонаты
+
+    .exhibits-title {
+        font-family: $font;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .exhibits-text {
+        font-size: $media-textt;
+    } 
+    
+    //карточка
+
+    .card-img {
+        width: 60px;
+        height: 80px;
+    }
+
+    //выставки
+
+    .exposition-title {
+        font-size: $media-titlet;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .exposition-but{
+        width: 80px;
+        height: 15px;
+        font-size: $media-textt;
+    }
+
+    .exposition-but:hover{
+        width: 80px;
+        height: 15px;
+        font-size: $media-textt;
+    }
+
+    //покупка
+
+    .button-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .date {
+        width: 60px;
+        height: 20px;
+    }
+    
+    .pay-title {
+        font-size: $media-titlet;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .information {
+        font-size: $media-textt;
+        margin-top: 25px;
+    }
+    
+    .categories {
+        width: 300px;
+    }
+
+    .categories-text {
+        font-size: $media-textt;
+    }
+    
+    .inf-text {
+        font-size: $media-textt;
+    }
+    
+    .head-table {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .table {
+        width: 350px;
+        height: 500px;
+    }
+    
+    .table-container {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    
+    .right-text {
+        width: 200px;
+    }
+    
+    .left-text {
+        width: 300px;
+    }
+    
+    .line-text {
+        font-size: $media-textp;
+    }
+    
+    hr {
+        width: 360px;
+    }
+    
+    .text-pay {
+        font-size: $media-textt;
+    }
+    
+    .pay-but {
+        width: 100px;
+        height: 30px;
+        font-size: $media-textt;
+    }
+    
+    .pay-but:hover{
+        width: 100px;
+        height: 30px;
+        font-size: $media-textt;
+    }
+    
+    //контакты 
+
+    .contacts-title {
+        font-size: $media-titlet;
+        margin-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .contacts-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .contacts-text{
+        font-size: $media-textt;
+        line-height: 3;
+    }
+    
+    .carta {
+        display: none;
+    }
+    .contacts-text-box {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .text-box-one {
+        margin-right: 0px;
+    }
+    
+    input {
+        width: 100px;
+        height: 20px;
+        font-size: $media-textt;
+    }
+    
+    .contacts-but {
+        width: 125px;
+        height: 20px;
+        font-size: $media-textt;
+    }
+    
+    .contacts-but:hover {
+        width: 125px;
+        height: 20px;
+        font-size: $media-textt;
+    }
+
+    
+}
+
+.msg {
+    text-align: center;
+    font-family: $font;
+}
+
+th {
+    padding: 10px;
+    background-color:#8C655D;
+    color: #DAD3D0;
+}
+
+td {
+    padding: 10px;
+    background-color:#DAD3D0;
+}
+
+.table-name {
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.add-but {
+    width: 493px;
+    height: 50px;
+    border: none;
+    border: 1px solid; //обводка
+    border-color: #000000; //цвет обводки
+    border-radius: 3px; //скругление обводки
+    background-color: transparent; //прозрачный цвет фона
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer; 
+}
+
+.add-but:hover{
+    background-color: #100D26;
+    color: #DAD3D0;
+}
+
+.type_of_authors {
+    width: 492px;
+    height: 50px;
+    font-size: $text;
+    font-family: $font;
+    padding-left: 15px;
+    color: #757575;
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.exit {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border: 1px solid; //обводка
+    border-color: #000000; //цвет обводки
+    border-radius: 3px; //скругление обводки
+    background-color: transparent; //прозрачный цвет фона
+    color: $black;
+    font-size: $text;
+    font-family: $font;
+    cursor: pointer;
+}
+
+.exit:hover {
+    background-color: #100D26;
+    color: #DAD3D0;
+}
